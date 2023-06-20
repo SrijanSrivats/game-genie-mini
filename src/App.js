@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import CustomNavbar from './nav';
+import Game from './game'
+import { gameData } from './data';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div><CustomNavbar></CustomNavbar>
+    <div className="game-list">{
+      gameData.map((g, i) => (<Game key={i}  title={g.title} achievements={g.achivements} imgSrc={g.imgSrc}></Game>))
+    }</div>
     </div>
+    </>
   );
 }
 

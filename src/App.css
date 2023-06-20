@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.game-list {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: space-between;
+}
