@@ -41,5 +41,22 @@
   display: flex;
   gap: 1rem;
   padding: 1rem;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.nav-img{
+  height: 4rem;
+  width: auto;
+}
+.main-head, .card-text-title{
+  color: rgb(214, 223, 227) !important;
+}
+.card-prop-img{
+  width: 30rem;
+  height: 10rem;
+  object-fit: contain;
+}
+body {
+  height: 100vh;
+  background-color: black;
 }

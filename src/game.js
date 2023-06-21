@@ -1,18 +1,21 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import './App.css';
 
 function Game(props) {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.imgSrc} />
+    <div className='' style={{backgroundColor: 'black'}}>
+    <Card className='col-3' style={{ width: '18rem', backgroundColor: 'black' }}>
+      <Card.Img className='card-prop-img' variant="top" src={props.imgSrc} />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text>
+        <Card.Title className='card-text-title'>{props.title}</Card.Title>
+        <Card.Text >
           {props.achivements} Achievements
         </Card.Text>
-        <Button variant="primary">Install</Button>
+        <Button variant="secondary">Install</Button>
       </Card.Body>
     </Card>
+    </div>
   );
 }
 
