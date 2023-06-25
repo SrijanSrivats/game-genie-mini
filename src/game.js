@@ -9,7 +9,7 @@ function Game(props) {
       <Card.Img className='card-prop-img' variant="top" src={props.imgSrc} />
       <Card.Body>
         <Card.Title className='card-text-title'>{props.title}</Card.Title>
-        <Card.Text >
+        <Card.Text className='card-text-data'>
           {props.achivements} Achievements
         </Card.Text>
         <Button variant="secondary">Install</Button>

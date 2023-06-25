@@ -28,4 +28,14 @@ export const gameData = [
         achivements: '4/6',
         imgSrc: 'https://img.freepik.com/free-photo/rise-humanoids-with-advanced-headgear-generative-ai_8829-2877.jpg?w=360&t=st=1687306000~exp=1687306600~hmac=103da0f21e65246013aaa73f49d36c0d09b3ab35206b9150639d325829bdfae5'
     },
+    {
+        title: 'Cyberpunk',
+        achivements: '4/6',
+        imgSrc: 'https://img.freepik.com/free-photo/rise-humanoids-with-advanced-headgear-generative-ai_8829-2877.jpg?w=360&t=st=1687306000~exp=1687306600~hmac=103da0f21e65246013aaa73f49d36c0d09b3ab35206b9150639d325829bdfae5'
+    },
+    {
+        title: 'Cyberpunk',
+        achivements: '4/6',
+        imgSrc: 'https://img.freepik.com/free-photo/rise-humanoids-with-advanced-headgear-generative-ai_8829-2877.jpg?w=360&t=st=1687306000~exp=1687306600~hmac=103da0f21e65246013aaa73f49d36c0d09b3ab35206b9150639d325829bdfae5'
+    },
 ]

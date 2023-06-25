@@ -55,8 +55,13 @@
   width: 30rem;
   height: 10rem;
   object-fit: contain;
+  border-radius: 2rem !important;
 }
 body {
   height: 100vh;
   background-color: black;
+}
+
+.card-text-data{
+  color: rgba(211, 211, 211, 0.578) !important;
 }
