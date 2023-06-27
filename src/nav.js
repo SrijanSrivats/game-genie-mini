@@ -15,7 +15,6 @@ function CustomNavbar() {
           <Navbar.Brand as={Link} to="/"><img className='nav-img' src='https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/users/cee2e87d-011f-4c2f-9d51-3b3dd171042c/design-previews/4cdcb617-9635-49e3-8eb9-390fca4052a4/1687302919360-thumbnail.jpeg'/></Navbar.Brand>
           <Nav className="">
             <Nav.Link as={Link} to='/' className='rightie'>Home</Nav.Link>
-            <Nav.Link href="#wishlist">Wishlist</Nav.Link>
             <Nav.Link as={Link} to="/login">Login</Nav.Link>
             <Nav.Link as={Link} to="/register">Register</Nav.Link>
 

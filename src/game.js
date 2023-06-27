@@ -10,7 +10,10 @@ function Game(props) {
       <Card.Body>
         <Card.Title className='card-text-title'>{props.title}</Card.Title>
         <Card.Text className='card-text-data'>
-          {props.achivements} Achievements
+          Rating:{props.rating}
+        </Card.Text>
+        <Card.Text className='card-text-data'>
+          Released On:{props.released}
         </Card.Text>
         <Button variant="secondary">Install</Button>
       </Card.Body>
